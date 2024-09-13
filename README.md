@@ -1,5 +1,4 @@
 # Coupled simulator for research on driver-pedestrian interactions made in Unity.
-## Test commit by Daan
 ## Usage of the simulator
 The simulator is open-source and free to use. It is aimed for, but not limited to, academic research. We welcome forking of this repository, pull requests, and any contributions in the spirit of open science and open-source code 😍😄 For enquiries about collaboration, you may contact p.bazilinskyy@tue.nl.
 
