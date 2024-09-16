@@ -40,10 +40,10 @@ The coupled simulator supports both day and night-time settings. Figure above sh
 
 Cars that are not controlled by the human participants can be instructed to follow a defined trajectory or can be programmed to respond at runtime to other road users. Adding new vehicles can be done by new importing assets (easy).
 
-## Input
+# <B>Input</b>
 The coupled simulator supports a keyboard and a gaming steering wheel as input sources for the driver of the manual car, a keyboard for the passenger of the AV to control the external human-machine interface, and a motion suit or a keyboard for the pedestrian. At the moment, supported motion suit is Xsens Motion Suit.
 
-## Output
+# <B>Output</b>
 The simulator supports giving output to both a computer screen and a head-mounted display (HMD). It has been tested with Oculus Rift CV1, Varjo VR-2 Pro.
 
 ## Networking and data logging
@@ -185,7 +185,7 @@ Prefab will be opened in edit mode along with the currently defined `Regular Pre
 
 ![](ReadmeFiles/project_settings.png)
 
-`ExperimentDefinition` component defines the following fields:
+`ExperimentDefinition` component defines the following fields: ( You can add peds, cars etc from here)
 - `ShortName`: the short name of the experiment used in video recording output filenames
 - `Name`: the name of the experiment
 - `Scene`: Unity scene name to be loaded as an experiment environment
@@ -197,14 +197,18 @@ Prefab will be opened in edit mode along with the currently defined `Regular Pre
 `Points of interest` is a list of `Transform` references.
 `CarSpawners` list references game objects containing component inheriting from `CarSpawnerBase`. It defines, with overridden `IEnumerator SpawnCoroutine()`  method, spawn sequence (see `BaseSyncedCarSpawner` for reference implementation). Car prefabs spawned by the coroutine with `AICar Spawn(CarSpawnParams parameters, bool yielding)` method must be one of the referenced prefabs in `AvatarPrefabDriver` list on `NetworkManager` component. 
 
+(WHEN STARING THE SCENE, THIS IS USED TO SPAWN CARS, PEDS WHEN THE SCENE STARTS)
+
 `Base.prefab` from `ExperimentDefinitions` folder is an example experiment definition showcasing most of simulator features.
+
+(YOU CAN DEFINE SPAWNING LOCATION FROM HERE - IN SPAWN POINT)
 
 ![](ReadmeFiles/experiment_definition.png)
 
-### Configuration of agents
+### Configuration of agents (V IMP)
 ![](ReadmeFiles/roles.png)
 
-`Roles` field is a list of `ExperimentRoleDefinition` structures defining experiment roles with the following base data fields:
+`Roles` field is a list of `ExperimentRoleDefinition` structures defining experiment roles with the following base data fields: (VV IMP)
  - `Name`: short name/description of the role
  - `SpawnPoint.Point`: defines where player avatar will be spawned
  - `SpawnPoint.Type`: a type of player avatar. It may be:
@@ -212,17 +216,17 @@ Prefab will be opened in edit mode along with the currently defined `Regular Pre
 -- `PlayerControlingCar`,
 -- `PlayerInAIControlledCar`.
 
-#### Adding and removing agents
+## Adding and removing agents (V IMP)
 To add a new agent either increase the size of `Roles` array or duplicate existing role by right-clicking on the role name and selecting Duplicate from the context menu.
 
 To remove the agent right click on the role name and select Delete from the context menu or decrease the list size removing end entries that don't fit the resized list.
 
-#### Configuration of starting location of agents
+## Configuration of starting location of agents (V IMP)
 Add a new game object to the prefab and set its position and rotation.
 Drag the newly created game object object to the `SpawnPoint.Point` field in role definition.
 
-#### Configuration of agent camera 
-Avatar prefab can have multiple cameras defined (`PlayerAvatar` (component) ➡️ `Cameras` (field)), for example for a driver and passenger position. Camera that will displaying world for the avatar is defined by providing `SpawnPoint.CameraIndex`.
+## Configuration of agent camera (IMP)
+Avatar prefab can have multiple cameras defined (`Prefabs`➡️`PlayerAvatar` (component) ➡️ `Cameras` (field)), for example for a driver and passenger position. Camera that will displaying world for the avatar is defined by providing `SpawnPoint.CameraIndex`.
 Additionally to the location, additional camera settings can be provided for a spawned agent with  `CameraSetup` component. The component can be added to the `SpawnPoint.Point` game object.
 The component exposes two fields:
 - `FieldOfView`: value which is set at spawn-time to `Camera.fieldOfView` property.
@@ -230,43 +234,48 @@ The component exposes two fields:
 
 ![](ReadmeFiles/camera_setup.png)
 
-#### Configuration for pedestrian agents (`PlayerControlledPedestrian`) 
+## Configuration for pedestrian agents (`PlayerControlledPedestrian`) (IMP) 
 No additional configuration is needed for pedestrian type agents.
 
-#### Common configuration for car (`PlayerControlingCar` and `PlayerInAIControlledCar`) agents
+
+### Common configuration for car (`PlayerControlingCar` and `PlayerInAIControlledCar`) agents (V IMP)
 Following additional fields has to be defined:
 - `CarIdx` - indicates car prefab that will be spawned for this role. Selected prefab is the one on the indicated index on `AvatarPrefabDriver` list (field on `PlayerSystem` component)
 - `VehicleType` - indicates how spawned car will be configured. It may be either `AV` or `MDV`. This parameter corresponds to `AV` and `MDV` sections in `PlayerAvatar` component.
 
-#### Configuration for agents `PlayerInAIControlledCar` 
-Following additional fields has to be defined:
-- `TopHMI`, `WindshieldHMI` (see image below), `HoodHMI` fields - defines which eHMI prefab to spawn on corresponding spots. Spots are defined in player avatar prefabs (`PlayerAvatar` (component) ➡️ `HMI Slots` (field)).
-- `AutonomusPath` - references game object defining waypoints for the autonomous car via `WaypointCirciut` component
+### (TO EDIT THE PROPERTIES OF Ai CAR, YOU NEED TO EDIT THE PREFAB OF THE CAR)
+
+## Configuration for agents `PlayerInAIControlledCar`  (VV IMP)
+Following additional fields has to be defined: <b>(YOU CAN CONFIGURE HMI HERE)</b>.
+- `TopHMI`, `WindshieldHMI` (see image below), `HoodHMI` fields - defines which eHMI (External Human Machine Interaction) prefab to spawn on corresponding spots. Spots are defined in player avatar prefabs (`PlayerAvatar` (component) ➡️ `HMI Slots` (field)).
+- `AutonomusPath` - references game object defining waypoints for the autonomous car via `WaypointCirciut` component (<b>YOU CAN SET WAYPOINTS OF AI CAR HERE</b>)
 
 ![](ReadmeFiles/windshield_ehmi.png)
 
-### Configuration of waypoints 
+## Configuration of waypoints (OF NPC CARS AND PEDS)
 ![](ReadmeFiles/traffic_circuit.png)
 
 Paths that can be followed both by non-playable pedestrians and vehicles are defined with the `WaypointCircuit` component.
 
-To add waypoint  - press + sign at the bottom of the list and drag waypoint Transform into the newly added field.
+### To add waypoint  - press + sign at the bottom of the list and drag waypoint Transform into the newly added field.
 
-To remove waypoint - select waypoint on the `Items` list and press + sign at the bottom of the list.
-To reorder waypoint - drag selected list item to the new position on the list.
-To change position of a waypoint - select waypoint transform (by double clicking on the reference from the `Items` list) and move it do the desired position.
+### To remove waypoint - select waypoint on the `Items` list and press + sign at the bottom of the list.
 
-#### Configuration of movement of AI-controlled pedestrians
+### To reorder waypoint - drag selected list item to the new position on the list.
+
+### To change position of a waypoint - select waypoint transform (by double clicking on the reference from the `Items` list) and move it do the desired position.
+
+## Configuration of movement of AI-controlled pedestrians (IMP)
 Additionally, for pedestrians, `PedestrianWaypoint` along with trigger `BoxCollider` component might be used to further configure agents behaviour on a tracked path.
 
 ##### `PedestrianWaypoint` component
 ![](ReadmeFiles/pedestrian_waypoint.png)
 
-`PedestrianWaypoint` component allows to change walking speed when pedestrian avatar enters `BoxCollider` with following parameters:
+#### `PedestrianWaypoint` component allows to change walking speed when pedestrian avatar enters `BoxCollider` with following parameters: (IMP)
 - `targetSpeed` - controls movement speed
 - `targetBlendFactor` - controls animation speed, by blending between idle and full speed walk
 
-#### Configuration of the movement AI-controlled cars
+## Configuration of the movement AI-controlled cars (V IMP) ( properties of ai car)
 Additionally, for vehicles, `SpeedSettings` along with trigger `BoxCollider` component might be used to further configure agents behaviour on a tracked path.
 
 ##### `SpeedSettings` component
@@ -285,10 +294,10 @@ Additionally, for vehicles, `SpeedSettings` along with trigger `BoxCollider` com
 - `brakingAcceleration` - If `causeToYield` is true, this value needs to be negative.
 Eye contact related parameters are described in "Configuration of driver's eye-contact behaviour" section.
 
-##### Custom behaviour
+### Custom behaviour (FRONT LIGHTS PROPERTIES)
 Waypoint can trigger custom behaviour, on `AICar` with linked `CustomBehaviour` derived component, by providing `ScriptableObject` deriving form `CustomBehaviourData` (See reference implementation in `BlinkWithFrontLights` and `BlinkPatternData`). `CustomBehaviour` components should be linked to `AICar` at spawn time (See reference implementation in `BaseSyncedCarSpawner`).
 
-####  Exporting and importing WaypointCircuit's
+####  Exporting and importing WaypointCircuit's (CUSTOM WAYPOINTS MAP IMPORTING)
 `WaypointCirciut` can be serialized into CSV format (semicolon separated) with an `Export to file` button. 
 
 CSV file can be modified in any external editor and then imported with an `Import from file` button. Importing files will remove all current waypoint objects and replace them with newly created ones according to the data in the imported CSV file. Following parameters are serialized to and de serialized from CSV files:
@@ -335,7 +344,7 @@ CSV file can be modified in any external editor and then imported with an `Impor
 | [center](https://docs.unity3d.com/ScriptReference/BoxCollider-center.html) | centerX; centerY; centerZ | - | box collider center
 | [size](https://docs.unity3d.com/ScriptReference/BoxCollider-size.html) | sizeX; sizeY; sizeZ | - | box collider size
 
-### Configuration of driver's eye-contact behaviour
+## Configuration of driver's eye-contact behaviour (IMP)
 Initial eye contact tracking state and base tracking parameters are defined with fields in the `EyeContact` component.
 `EyeContactTracking` defines the initial (and current at runtime) driver's eye contact behaviour while the car is not fully stopped.
 - `MinTrackingDistance` and `MaxTrackingDistance` define (in meters) the range of distances at which eye contact tracking is possible. Distance is measured between the driver's head position and the pedestrian's root position (ignoring a distance on a vertical axis).
@@ -348,7 +357,7 @@ Initial eye contact tracking state and base tracking parameters are defined with
 
 ![](ReadmeFiles/eye_contact.png)
 
-Eye contact behaviour tracking state can be changed when the car reaches the waypoint. Behaviour change is defined by the `SpeedSettings` - the component embedded on waypoint objects. The following four fields control those changes:
+<b> Eye contact behaviour tracking state can be changed when the car reaches the waypoint. Behaviour change is defined by the `SpeedSettings` - the component embedded on waypoint objects. The following four fields control those changes: </b>
 - `EyeContactWhileYielding`: defines how the driver will behave while the car is fully stopped
 - `EyeContactAfterYielding`: defines how the driver will behave when the car resumes driving after a full stop. This value simply overwrites the current value of `EyeContact.EyeContactTracking` if the car has fully stopped.
 - `YieldingEyeContactSince`: defines how many seconds need to pass before the driver will make eye contact (starting from the moment the car has fully stopped)
@@ -357,16 +366,16 @@ Eye contact behaviour tracking state can be changed when the car reaches the way
 #### Configuration of daylight conditions
 ![](ReadmeFiles/day_night_control.png)
 
-`DayNightControl` component helps to define different experiment daylight conditions. It gathers lighting-related objects and allows defining two lightings presets - Day and Night, that can be quickly switched for a scene. This component is intended to be used at the experiment definition setup stage. When the development of the environment is complete, it is advised, to save the environment into two separate scenes (with different light setups) and bake lightmaps.
+`DayNightControl` component helps to define different experiment daylight conditions. It gathers lighting-related objects and allows defining two lightings presets - Day and Night, that can be quickly switched for a scene. This component is intended to be used at the experiment definition setup stage. When the development of the environment is complete, it is advised, to save the environment into two separate scenes (with different light setups) and bake lightmaps. (DAY AND NIGHT SETTINGS)
 
 #### Configuration of traffic lights
 ![](ReadmeFiles/street_light_manager.png)
 
-Creating a traffic street lights system is best started with creating an instance of `ExampleStreetLightCrossSection` prefab and adjusting it. 
+<B>Creating a traffic street lights system is best started with creating an instance of `ExampleStreetLightCrossSection` prefab and adjusting it. 
 `TrafficLightsManager` component manages state of `CarSection` and `PedestrainSection` objects that group respectively `CarTrafficLight` and `PedestrianTrafficLight` instances that share common behaviour.
 Traffic light initial state is defined with list of `TrafficLightEvent` structures stored in `initialStreetLightSetup` field. This events are triggered once before simulation has started.
 Traffic light initial state is defined with list of `TrafficLightEvent` structures stored in `streetLightEvents` field. This events are triggered sequentially in a loop. 
-Each event is defined with the following fields:
+Each event is defined with the following fields: </B> (TRAFFIC LIGHTS CREATION AND SETTINGS)
 - `Name`: descriptive name of an event
 - `Delta Time`: relative time that has to pass since previous event to activate the event
 - `CarSections`: cars traffic light group that the event applies to
@@ -377,7 +386,7 @@ Each event is defined with the following fields:
 - `CurrentIndex` selects `TrafficLightEvent` that the sequence will start from. 
 - `CurrentTimer` sets time offset from the start of the selected `TrafficLightEvent`.
 
-### Details on editing car prefabs
+### Details on editing car prefabs (EDITING CAR MODEL)
 `Speedometer` component controls a speed indicator. 
 To use digital display, set the `Speedometer Text` field in order to do that.
 To use analog display, set the following fields:
