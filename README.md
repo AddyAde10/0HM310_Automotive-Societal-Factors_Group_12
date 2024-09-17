@@ -439,7 +439,7 @@ Inbound rules: Set correct Unity Editor version to allow all connections.
 
 ![](ReadmeFiles/inbound_rules.png)
 
-### Troubleshooting steering wheel
+### Troubleshooting steering wheel (test)
 Check if supporting software is installed (e.g., Logitech gaming software G27 is used in our case). In Unity, you can check which button corresponds to your specific wheel. You can find this out by using the following asset in an empty project: https://assetstore.unity.com/packages/tools/input-management/controller-tester-43621.
 
 Then make sure you assign the correct inputs in Unity under `Edit ➡️ Project Settings ➡️ Input` (see figure below).
