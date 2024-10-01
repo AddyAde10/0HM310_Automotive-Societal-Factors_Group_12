@@ -2188,7 +2188,7 @@ MonoBehaviour:
     SpawnPassenger: 0
     Car: {fileID: 7713759469045616529, guid: 1baf460ab026f1247ab4696be569ffae, type: 3}
     VehicleType: 1
-    color: {r: 0.081149824, g: 0.9150943, b: 0.10826875, a: 1}
+    color: {r: 0.08235291, g: 0.45994493, b: 0.9137255, a: 1}
     Labeled: 0
     customBehaviours: []
 --- !u!1 &6692014269374732414
