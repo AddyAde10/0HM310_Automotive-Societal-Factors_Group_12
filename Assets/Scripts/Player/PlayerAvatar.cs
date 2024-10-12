@@ -162,21 +162,21 @@ public class PlayerAvatar : MonoBehaviour
             switch (controlMode)
             {
                 case PlayerSystem.ControlMode.Driver:
-                    if (Internal != null)
+                    if (Internal != true)
                     {
                         Internal.enabled = true;
                     }
                     modeElements = PlayerAsDriver;
                     break;
                 case PlayerSystem.ControlMode.HostAI:
-                    if (External != null)
+                    if (External != true)
                     {
                         External.enabled = true;
                     }
                     modeElements = HostDrivenAIElements;
                     break;
                 case PlayerSystem.ControlMode.Passenger:
-                    if (Internal != null)
+                    if (Internal != true)
                     {
                         Internal.enabled = true;
                     }
