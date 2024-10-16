@@ -13,6 +13,11 @@ public class SpriteHMI : HMI
 	Sprite walk;
 	[SerializeField]
 	Sprite disabled;
+    // Added these two sprites for the merge states
+    [SerializeField]
+    Sprite merge_left;
+    [SerializeField]
+    Sprite merge_right;
 
 	public override void Display(HMIState state)
     {
@@ -25,6 +30,13 @@ public class SpriteHMI : HMI
                 break;
             case HMIState.WALK:
                 spr = walk;
+                break;
+    // Added these two cases for the merge states
+            case HMIState.MERGE_LEFT:
+                spr = merge_left;
+                break;
+            case HMIState.MERGE_RIGHT:
+                spr = merge_right;
                 break;
             default:
                 spr = disabled;
