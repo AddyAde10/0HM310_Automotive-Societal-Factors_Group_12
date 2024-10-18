@@ -8,13 +8,12 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     float elapsedTime;
 
-    void Update()
+
+    public void Update()
     {   
         
         elapsedTime += Time.deltaTime;
         timerText.text = elapsedTime.ToString();
 
     }
-
-
 }

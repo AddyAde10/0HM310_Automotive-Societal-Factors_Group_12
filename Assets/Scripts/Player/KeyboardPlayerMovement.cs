@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 //debug keyboard controller for pedestrian role
 public class KeyboardPlayerMovement : MonoBehaviour
@@ -10,6 +11,13 @@ public class KeyboardPlayerMovement : MonoBehaviour
     float _speed;
     [SerializeField]
     float _rotateSpeed = 50;
+    [SerializeField] TextMeshProUGUI timerText;
+    float elapsedTime;
+
+    public void Update()
+    {   
+        elapsedTime += Time.deltaTime;
+    }
 
     void Awake()
     {
@@ -39,6 +47,10 @@ public class KeyboardPlayerMovement : MonoBehaviour
         if (Input.GetKey(KeyCode.Q))
         {
             rot -= _rotateSpeed;
+        }
+        if (Input.GetKey(KeyCode.M))
+        {
+            print(elapsedTime);
         }
         else if (Input.GetKey(KeyCode.E))
         {
