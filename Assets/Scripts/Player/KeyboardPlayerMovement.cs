@@ -11,13 +11,6 @@ public class KeyboardPlayerMovement : MonoBehaviour
     float _speed;
     [SerializeField]
     float _rotateSpeed = 50;
-    [SerializeField] TextMeshProUGUI timerText;
-    float elapsedTime;
-
-    public void Update()
-    {   
-        elapsedTime += Time.deltaTime;
-    }
 
     void Awake()
     {
@@ -27,6 +20,7 @@ public class KeyboardPlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 move = default(Vector3);
+        elapsedTime += Time.deltaTime;
         if (Input.GetKey(KeyCode.W))
         {
             move.z += _speed;
@@ -55,6 +49,10 @@ public class KeyboardPlayerMovement : MonoBehaviour
         else if (Input.GetKey(KeyCode.E))
         {
             rot += _rotateSpeed;
+        }
+        else if (Input.GetKey(KeyCode.Y))
+        {
+            Debug.Log("Hello: " + elapsedTime);
         }
         _rb.MovePosition(_rb.position + _rb.rotation * move * Time.fixedDeltaTime);
         _rb.MoveRotation(_rb.rotation * Quaternion.Euler(0, rot * Time.fixedDeltaTime, 0));
