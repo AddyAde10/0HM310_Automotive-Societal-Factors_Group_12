@@ -8,6 +8,8 @@ public enum HMIState
     DISABLED,
     STOP,
     WALK,
+    MERGE_LEFT,
+    MERGE_RIGHT,
 }
 
 //script that synchronizes hmi state between all players
