@@ -59,7 +59,7 @@ Transform:
   m_GameObject: {fileID: 1311683244}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -268.98, y: -0.06, z: 203.76}
+  m_LocalPosition: {x: -269.07, y: 0, z: 203.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1229,13 +1229,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2744958542238208056}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.025921222, z: -0, w: 0.999664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -269.3, y: 0, z: 143.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7492252986797691323}
-  m_LocalEulerAnglesHint: {x: 0, y: 2.971, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &2710552958447762115
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   waypointList:
     circuit: {fileID: 8043761391078894673}
     items:
-    - {fileID: 5379160518303820271}
+    - {fileID: 6750191569094715530}
     - {fileID: 3073151224528846312}
     - {fileID: 7055149920090732465}
     - {fileID: 1077693654892852820}
@@ -3524,12 +3524,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fb627e88d79d774992db56661edcf83, type: 3}
---- !u!4 &5379160518303820271 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6616532820822672356, guid: 8fb627e88d79d774992db56661edcf83,
-    type: 3}
-  m_PrefabInstance: {fileID: 1257692278195448331}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8138627878072586462 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7027320322760964821, guid: 8fb627e88d79d774992db56661edcf83,
