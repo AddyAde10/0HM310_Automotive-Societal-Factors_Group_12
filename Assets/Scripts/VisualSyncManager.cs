@@ -23,7 +23,6 @@ public class VisualSyncManager : MonoBehaviour
             host.BroadcastMessage(new VisualSyncMessage());
             DisplayMarker();
             print(elapsedTime);
-
         }
     }
 
