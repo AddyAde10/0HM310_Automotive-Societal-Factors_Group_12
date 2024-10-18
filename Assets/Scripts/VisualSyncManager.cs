@@ -7,14 +7,6 @@ using TMPro;
 //broadcast visual syncing network message and displays red bar as a visual synchronization marker (used to syncing gameplay videos captured on different devices)
 public class VisualSyncManager : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI timerText;
-    float elapsedTime;
-
-    public void Update()
-    {   
-        
-        elapsedTime += Time.deltaTime;
-    }
 
     public void DoHostGUI(Host host)
     {
@@ -22,7 +14,6 @@ public class VisualSyncManager : MonoBehaviour
         {
             host.BroadcastMessage(new VisualSyncMessage());
             DisplayMarker();
-            print(elapsedTime);
         }
     }
 
