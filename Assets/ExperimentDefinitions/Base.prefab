@@ -3147,13 +3147,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7516405565690606297}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0011230779, y: 0.99999356, z: 0.0008039658, w: -0.0033131226}
+  m_LocalRotation: {x: 0.0009816769, y: 0.9868648, z: 0.0009715841, w: -0.1615424}
   m_LocalPosition: {x: 326.3, y: 0.4, z: -148.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 7492252986797691323}
-  m_LocalEulerAnglesHint: {x: -0.093, y: 180.38, z: 0.128}
+  m_LocalEulerAnglesHint: {x: -0.128, y: 198.593, z: 0.093}
 --- !u!65 &3538980788753569670
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3189,7 +3189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 10
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -3339,7 +3339,7 @@ Transform:
   m_GameObject: {fileID: 7836821078378817293}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0011230779, y: 0.99999356, z: 0.0008039658, w: -0.0033131226}
-  m_LocalPosition: {x: 325.6, y: 0.6, z: -251.7}
+  m_LocalPosition: {x: 312.39, y: 0.58, z: -236.25}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3380,7 +3380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 0
   acceleration: -5
   BlinkerState: 0
   jerk: 5
