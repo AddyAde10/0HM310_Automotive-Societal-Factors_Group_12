@@ -3978,8 +3978,7 @@ MonoBehaviour:
     collider: {fileID: 0}
   FlatModeElements:
     gameObjects: []
-    monoBehaviours:
-    - {fileID: 114552724408261780, guid: 849e6abc46b6346d0b8b1d058d7ead46, type: 3}
+    monoBehaviours: []
     collider: {fileID: 0}
   SuiteModeElements:
     gameObjects: []
@@ -4328,7 +4327,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1783928687406872520}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fa827171d63f67040baabba4112fe716, type: 3}
   m_Name: 
