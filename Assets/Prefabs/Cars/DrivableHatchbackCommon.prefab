@@ -3978,7 +3978,8 @@ MonoBehaviour:
     collider: {fileID: 0}
   FlatModeElements:
     gameObjects: []
-    monoBehaviours: []
+    monoBehaviours:
+    - {fileID: 114552724408261780, guid: 849e6abc46b6346d0b8b1d058d7ead46, type: 3}
     collider: {fileID: 0}
   SuiteModeElements:
     gameObjects: []
