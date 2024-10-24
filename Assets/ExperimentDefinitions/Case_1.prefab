@@ -24555,7 +24555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShortName: 
-  Name: Demo with 3 agents
+  Name: Case 1
   Scene: MainScene
   Roles:
   - Name: Driver

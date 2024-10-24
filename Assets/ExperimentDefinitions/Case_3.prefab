@@ -133,7 +133,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -293,7 +293,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -411,13 +411,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151944597416195205}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0013760593, y: 0.861882, z: 0.000118844604, w: 0.507107}
+  m_LocalRotation: {x: 0.0013809501, y: 0.8870097, z: 0.000049882103, w: 0.46174884}
   m_LocalPosition: {x: 109.4, y: 0, z: 424.12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: 0.068, y: 119.057, z: 0.143}
+  m_LocalEulerAnglesHint: {x: 0.068, y: 125, z: 0.143}
 --- !u!65 &9161317030071412273
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -454,7 +454,7 @@ MonoBehaviour:
   targetAICar: {fileID: 0}
   Type: 1
   speed: 25
-  acceleration: -5
+  acceleration: 1
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -853,7 +853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -1093,7 +1093,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -1548,7 +1548,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -2065,7 +2065,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -2145,7 +2145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -2183,13 +2183,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 608412024142949556}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0013652334, y: 0.8934334, z: 0.00020928831, w: 0.4491938}
-  m_LocalPosition: {x: 177.5, y: -0.1, z: 383.4}
+  m_LocalRotation: {x: 0.0013642048, y: 0.88294643, z: 0.00024108167, w: 0.46947166}
+  m_LocalPosition: {x: 174.4, y: -0.1, z: 379.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: 0.049, y: 126.616, z: 0.151}
+  m_LocalEulerAnglesHint: {x: 0.049, y: 124, z: 0.151}
 --- !u!65 &3027177028326883535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2225,10 +2225,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
-  acceleration: -5
+  speed: 20
+  acceleration: 0
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -2308,7 +2308,7 @@ MonoBehaviour:
   speed: 0
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -2705,7 +2705,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -2891,7 +2891,7 @@ Transform:
   m_GameObject: {fileID: 819814951419946738}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0012982062, y: 0.96387964, z: 0.0004715135, w: 0.26633477}
-  m_LocalPosition: {x: 258.7, y: -0.1, z: 309.3}
+  m_LocalPosition: {x: 258, y: -0.1, z: 301.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2932,10 +2932,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -3012,7 +3012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -3707,7 +3707,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -3787,7 +3787,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -3867,90 +3867,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
-  causeToYield: 0
-  EyeContactWhileYielding: 0
-  EyeContactAfterYielding: 0
-  yieldTime: 0
-  brakingAcceleration: 0
-  YieldingEyeContactSince: 0
-  YieldingEyeContactUntil: 0
-  customBehaviourData: []
---- !u!1 &1047012149702985594
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6542163231965917628}
-  - component: {fileID: 2064882828947099719}
-  - component: {fileID: 3100630225416821966}
-  m_Layer: 5
-  m_Name: WP31.50
-  m_TagString: WP
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6542163231965917628
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047012149702985594}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00121334, y: 0.9914439, z: 0.0006588199, w: -0.13052684}
-  m_LocalPosition: {x: 317.5, y: 0.1, z: 31.8}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: -0.093, y: 195, z: 0.128}
---- !u!65 &2064882828947099719
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047012149702985594}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 4.25, y: 4, z: 0}
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &3100630225416821966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1047012149702985594}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aafac7d9fa55df845bcba1182540f596, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAICar: {fileID: 0}
-  Type: 1
-  speed: 25
-  acceleration: -5
-  BlinkerState: 0
-  jerk: 5
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -4296,7 +4216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -4456,7 +4376,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -4616,7 +4536,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -5421,7 +5341,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -5581,7 +5501,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -6153,86 +6073,6 @@ MonoBehaviour:
   YieldingEyeContactSince: 0
   YieldingEyeContactUntil: 0
   customBehaviourData: []
---- !u!1 &1674777727231332576
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 4034072165023051658}
-  - component: {fileID: 6750768832947768377}
-  - component: {fileID: 6955927925889194300}
-  m_Layer: 5
-  m_Name: WP31.25
-  m_TagString: WP
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &4034072165023051658
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674777727231332576}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.00121334, y: 0.9914439, z: 0.0006588199, w: -0.13052684}
-  m_LocalPosition: {x: 321.5, y: 0.1, z: 38.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: -0.093, y: 195, z: 0.128}
---- !u!65 &6750768832947768377
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674777727231332576}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 4.25, y: 4, z: 0}
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &6955927925889194300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674777727231332576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aafac7d9fa55df845bcba1182540f596, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAICar: {fileID: 0}
-  Type: 1
-  speed: 25
-  acceleration: -5
-  BlinkerState: 0
-  jerk: 5
-  causeToYield: 0
-  EyeContactWhileYielding: 0
-  EyeContactAfterYielding: 0
-  yieldTime: 0
-  brakingAcceleration: 0
-  YieldingEyeContactSince: 0
-  YieldingEyeContactUntil: 0
-  customBehaviourData: []
 --- !u!1 &1705748871275265047
 GameObject:
   m_ObjectHideFlags: 0
@@ -6701,7 +6541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -6781,7 +6621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -6861,7 +6701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -6900,7 +6740,7 @@ Transform:
   m_GameObject: {fileID: 1890258196701670918}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0013562347, y: 0.90995216, z: 0.00026132603, w: 0.41471088}
-  m_LocalPosition: {x: 224.81, y: -0.11, z: 349.99}
+  m_LocalPosition: {x: 221.7, y: -0.1, z: 346.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6941,10 +6781,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -7024,7 +6864,7 @@ MonoBehaviour:
   speed: 0
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -7181,7 +7021,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -8100,7 +7940,7 @@ Transform:
   m_GameObject: {fileID: 2274825548854363165}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0011324054, y: 0.9999639, z: 0.0007907736, w: 0.008384485}
-  m_LocalPosition: {x: 325.44, y: -0.05, z: 183.9}
+  m_LocalPosition: {x: 316, y: 0, z: 183.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -8141,10 +7981,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
-  acceleration: -5
+  speed: 20
+  acceleration: 1
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -8381,7 +8221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -8492,7 +8332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -8652,7 +8492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -8732,7 +8572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -8812,7 +8652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -9011,7 +8851,7 @@ Transform:
   m_GameObject: {fileID: 2556767645076634104}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0013594844, y: 0.90454155, z: 0.00024385634, w: 0.42638314}
-  m_LocalPosition: {x: 205.68, y: -0.09, z: 365.48}
+  m_LocalPosition: {x: 202.7, y: -0.1, z: 361.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9052,10 +8892,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
-  acceleration: -5
+  speed: 20
+  acceleration: 0
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -9212,7 +9052,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -9372,7 +9212,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -9692,7 +9532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -10824,86 +10664,6 @@ MonoBehaviour:
   YieldingEyeContactSince: 0
   YieldingEyeContactUntil: 0
   customBehaviourData: []
---- !u!1 &3012028980943599536
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6909662326338177266}
-  - component: {fileID: 1281358401492289427}
-  - component: {fileID: 2420895034938457388}
-  m_Layer: 5
-  m_Name: WP31.75
-  m_TagString: WP
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6909662326338177266
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3012028980943599536}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0011169665, y: 0.99999905, z: 0.00081155606, w: -0.0000009064817}
-  m_LocalPosition: {x: 316.4, y: 0.1, z: 20.9}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: -0.093, y: 180, z: 0.128}
---- !u!65 &1281358401492289427
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3012028980943599536}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 4.25, y: 4, z: 0}
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &2420895034938457388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3012028980943599536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aafac7d9fa55df845bcba1182540f596, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAICar: {fileID: 0}
-  Type: 1
-  speed: 25
-  acceleration: -5
-  BlinkerState: 0
-  jerk: 5
-  causeToYield: 0
-  EyeContactWhileYielding: 0
-  EyeContactAfterYielding: 0
-  yieldTime: 0
-  brakingAcceleration: 0
-  YieldingEyeContactSince: 0
-  YieldingEyeContactUntil: 0
-  customBehaviourData: []
 --- !u!1 &3012839183917495746
 GameObject:
   m_ObjectHideFlags: 0
@@ -11455,7 +11215,7 @@ MonoBehaviour:
   speed: 0
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -12092,7 +11852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -12732,7 +12492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -13801,7 +13561,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -14281,7 +14041,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -15081,7 +14841,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -15592,7 +15352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -16232,7 +15992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -16742,7 +16502,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -16822,7 +16582,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -16860,13 +16620,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4768813203784861965}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0013715698, y: 0.8776146, z: 0.00016266474, w: 0.47936496}
-  m_LocalPosition: {x: 135.45, y: 0, z: 410.14}
+  m_LocalRotation: {x: 0.0013777297, y: 0.8949332, z: 0.00011161357, w: 0.4461979}
+  m_LocalPosition: {x: 134.1, y: 0, z: 408.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: 0.059, y: 122.712, z: 0.147}
+  m_LocalEulerAnglesHint: {x: 0.059, y: 127, z: 0.147}
 --- !u!65 &272330241339716093
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16903,7 +16663,7 @@ MonoBehaviour:
   targetAICar: {fileID: 0}
   Type: 1
   speed: 25
-  acceleration: -5
+  acceleration: 1
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -17142,7 +16902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -17253,7 +17013,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -17413,7 +17173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -17573,7 +17333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -17733,7 +17493,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -17806,10 +17566,6 @@ Transform:
   - {fileID: 8616778914031204734}
   - {fileID: 761901142746226027}
   - {fileID: 7257511691963422810}
-  - {fileID: 4034072165023051658}
-  - {fileID: 6542163231965917628}
-  - {fileID: 6909662326338177266}
-  - {fileID: 8981670711986950532}
   - {fileID: 5231694109495255685}
   - {fileID: 3857825699214370118}
   - {fileID: 4610791861294543221}
@@ -17863,10 +17619,6 @@ MonoBehaviour:
     - {fileID: 8616778914031204734}
     - {fileID: 761901142746226027}
     - {fileID: 7257511691963422810}
-    - {fileID: 4034072165023051658}
-    - {fileID: 6542163231965917628}
-    - {fileID: 6909662326338177266}
-    - {fileID: 8981670711986950532}
     - {fileID: 5231694109495255685}
     - {fileID: 3857825699214370118}
     - {fileID: 4610791861294543221}
@@ -17901,7 +17653,7 @@ Transform:
   m_GameObject: {fileID: 4988144777381450308}
   serializedVersion: 2
   m_LocalRotation: {x: 0.00134437, y: 0.9588188, z: 0.00031629394, w: 0.28401512}
-  m_LocalPosition: {x: 255.2, y: -0.1, z: 314.7}
+  m_LocalPosition: {x: 251.2, y: -0.1, z: 312.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17942,10 +17694,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -19043,7 +18795,7 @@ Transform:
   m_GameObject: {fileID: 5307381074779351785}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0013413976, y: 0.92963314, z: 0.00032911496, w: 0.3684839}
-  m_LocalPosition: {x: 236, y: -0.12, z: 339.18}
+  m_LocalPosition: {x: 232.5, y: -0.1, z: 335.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19084,10 +18836,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -19513,7 +19265,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -19712,7 +19464,7 @@ Transform:
   m_GameObject: {fileID: 5510294530057482329}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0011230779, y: 0.99999356, z: 0.0008039658, w: -0.0033131226}
-  m_LocalPosition: {x: 326.83, y: 0, z: 138.2}
+  m_LocalPosition: {x: 316.7, y: 0, z: 138.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -19753,10 +19505,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
-  acceleration: -5
+  speed: 20
+  acceleration: 1
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -19913,7 +19665,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -20087,7 +19839,7 @@ Transform:
   m_GameObject: {fileID: 5588875730203761104}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0011230779, y: 0.99999356, z: 0.0008039658, w: -0.0033131226}
-  m_LocalPosition: {x: 326.3, y: 0.1, z: 45.6}
+  m_LocalPosition: {x: 317.1, y: 0.1, z: 45.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20128,10 +19880,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
-  acceleration: -5
+  speed: 20
+  acceleration: 1
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -20167,7 +19919,7 @@ Transform:
   m_GameObject: {fileID: 5593756718367348483}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0013032149, y: 0.9609518, z: 0.00045748785, w: 0.27671257}
-  m_LocalPosition: {x: 288.84, y: -0.11, z: 268.46}
+  m_LocalPosition: {x: 281.8, y: -0.1, z: 264}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20208,10 +19960,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
-  acceleration: -5
+  speed: 20
+  acceleration: 0
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -20368,7 +20120,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -20608,7 +20360,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -21076,7 +20828,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -21316,7 +21068,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -21808,86 +21560,6 @@ MonoBehaviour:
   YieldingEyeContactSince: 0
   YieldingEyeContactUntil: 0
   customBehaviourData: []
---- !u!1 &5888169929496397641
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8981670711986950532}
-  - component: {fileID: 1371707025309760034}
-  - component: {fileID: 5612064080652151173}
-  m_Layer: 5
-  m_Name: WP32
-  m_TagString: WP
-  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &8981670711986950532
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5888169929496397641}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0.0011230779, y: 0.99999356, z: 0.0008039658, w: -0.0033131226}
-  m_LocalPosition: {x: 316.79, y: 0.22, z: -46.54}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: -0.093, y: 180.38, z: 0.128}
---- !u!65 &1371707025309760034
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5888169929496397641}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 0
-  serializedVersion: 3
-  m_Size: {x: 4.25, y: 4, z: 0}
-  m_Center: {x: 0, y: 1, z: 0}
---- !u!114 &5612064080652151173
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5888169929496397641}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aafac7d9fa55df845bcba1182540f596, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetAICar: {fileID: 0}
-  Type: 1
-  speed: 25
-  acceleration: -5
-  BlinkerState: 0
-  jerk: 5
-  causeToYield: 0
-  EyeContactWhileYielding: 0
-  EyeContactAfterYielding: 0
-  yieldTime: 0
-  brakingAcceleration: 0
-  YieldingEyeContactSince: 0
-  YieldingEyeContactUntil: 0
-  customBehaviourData: []
 --- !u!1 &5912545153714243316
 GameObject:
   m_ObjectHideFlags: 0
@@ -21956,7 +21628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -22116,7 +21788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -22276,7 +21948,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -22436,7 +22108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -22516,7 +22188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -22836,7 +22508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -23490,7 +23162,7 @@ Transform:
   m_GameObject: {fileID: 6406226314986570729}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0011811488, y: 0.997331, z: 0.0007159273, w: 0.07299939}
-  m_LocalPosition: {x: 321.24, y: -0.08, z: 210.76001}
+  m_LocalPosition: {x: 311.6, y: -0.1, z: 209.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23531,10 +23203,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -23771,7 +23443,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -24091,7 +23763,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -24555,7 +24227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShortName: 
-  Name: Demo with 3 agents
+  Name: Case 3
   Scene: MainScene
   Roles:
   - Name: Driver
@@ -24998,7 +24670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -25398,7 +25070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -25436,13 +25108,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6911336827665073405}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0013032149, y: 0.9609518, z: 0.00045748785, w: 0.27671257}
-  m_LocalPosition: {x: 305.49, y: -0.1, z: 241.33}
+  m_LocalRotation: {x: 0.0013189025, y: 0.97029483, z: 0.00040970047, w: 0.24192165}
+  m_LocalPosition: {x: 298.5, y: -0.1, z: 237.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: -0.009, y: 147.872, z: 0.158}
+  m_LocalEulerAnglesHint: {x: -0.009, y: 152, z: 0.158}
 --- !u!65 &9087963662521886559
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25478,10 +25150,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -25672,7 +25344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -25861,7 +25533,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -26101,7 +25773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -26181,7 +25853,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -27521,7 +27193,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -27601,7 +27273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -27761,7 +27433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -28145,7 +27817,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -28184,7 +27856,7 @@ Transform:
   m_GameObject: {fileID: 7638011778949252709}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0013677474, y: 0.8877374, z: 0.00019217316, w: 0.46034825}
-  m_LocalPosition: {x: 148.24, y: -0.02, z: 402.08}
+  m_LocalPosition: {x: 149.5, y: -0, z: 395.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -28225,15 +27897,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
-  acceleration: -5
+  speed: 20
+  acceleration: 0
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
   yieldTime: 0
-  brakingAcceleration: 0
+  brakingAcceleration: 2
   YieldingEyeContactSince: 0
   YieldingEyeContactUntil: 0
   customBehaviourData: []
@@ -28785,7 +28457,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -29105,7 +28777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -29345,7 +29017,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -29614,7 +29286,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -29817,7 +29489,7 @@ Transform:
   m_GameObject: {fileID: 8405398398804569945}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0013681602, y: 0.9588188, z: 0.00020499177, w: 0.28401527}
-  m_LocalPosition: {x: 250.04, y: -0.12, z: 322.52}
+  m_LocalPosition: {x: 245.5, y: -0.1, z: 319.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29858,10 +29530,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -30057,7 +29729,7 @@ Transform:
   m_GameObject: {fileID: 8497950408499860455}
   serializedVersion: 2
   m_LocalRotation: {x: 0.0012982062, y: 0.96387964, z: 0.0004715135, w: 0.26633477}
-  m_LocalPosition: {x: 271.5, y: -0.1, z: 288.7}
+  m_LocalPosition: {x: 267.5, y: -0.1, z: 286.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30098,10 +29770,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -30376,13 +30048,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8614631041720564859}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.0012675191, y: 0.9781448, z: 0.00054868864, w: 0.20792004}
-  m_LocalPosition: {x: 316.28, y: -0.09, z: 220.69}
+  m_LocalRotation: {x: 0.0012850899, y: 0.9848069, z: 0.0005013514, w: 0.17364773}
+  m_LocalPosition: {x: 308.2, y: -0.1, z: 217.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3847755867822048639}
-  m_LocalEulerAnglesHint: {x: -0.031, y: 155.999, z: 0.155}
+  m_LocalEulerAnglesHint: {x: -0.031, y: 160, z: 0.155}
 --- !u!65 &6579326586311288029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30418,10 +30090,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 20
   acceleration: -5
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -30847,7 +30519,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -31087,7 +30759,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -31170,7 +30842,7 @@ MonoBehaviour:
   speed: 25
   acceleration: -20
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -31810,7 +31482,7 @@ MonoBehaviour:
   speed: 10
   acceleration: -10
   BlinkerState: 0
-  jerk: 5
+  jerk: 0
   causeToYield: 0
   EyeContactWhileYielding: 0
   EyeContactAfterYielding: 0
@@ -31996,7 +31668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
@@ -32556,7 +32228,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -32636,7 +32308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -32716,7 +32388,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 25
+  speed: 30
   acceleration: -5
   BlinkerState: 0
   jerk: 0
