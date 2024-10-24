@@ -133,8 +133,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -293,8 +293,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -453,8 +453,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -853,8 +853,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -933,8 +933,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1093,8 +1093,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1173,8 +1173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -1388,8 +1388,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1468,8 +1468,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1548,8 +1548,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1628,8 +1628,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1788,8 +1788,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -1985,8 +1985,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -2065,8 +2065,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -2145,7 +2145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -2225,8 +2225,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -2385,8 +2385,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -2545,8 +2545,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -2625,8 +2625,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -2705,8 +2705,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -2852,8 +2852,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -2932,8 +2932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -3012,8 +3012,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3147,8 +3147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3227,8 +3227,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3387,8 +3387,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3627,8 +3627,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3707,8 +3707,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3787,8 +3787,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3867,8 +3867,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -3947,8 +3947,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -4027,8 +4027,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -4296,7 +4296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -4376,8 +4376,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -4456,8 +4456,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -4536,8 +4536,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -4616,7 +4616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -4696,8 +4696,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -4776,8 +4776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -4856,8 +4856,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -4936,8 +4936,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -5181,7 +5181,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -5341,8 +5341,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -5421,8 +5421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -5501,8 +5501,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -5581,7 +5581,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -5661,7 +5661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -5741,8 +5741,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -5821,7 +5821,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -5901,7 +5901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -6061,8 +6061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -6141,8 +6141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -6221,8 +6221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -6301,8 +6301,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -6461,7 +6461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -6541,8 +6541,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -6621,7 +6621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -6701,7 +6701,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -6781,8 +6781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -6861,8 +6861,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -6941,8 +6941,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -7181,8 +7181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -7261,8 +7261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -7421,7 +7421,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -7581,8 +7581,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -7821,8 +7821,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -7901,7 +7901,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -8061,8 +8061,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -8141,8 +8141,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -8221,8 +8221,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -8381,7 +8381,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -8492,7 +8492,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -8572,7 +8572,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -8652,7 +8652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -8732,8 +8732,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -8812,7 +8812,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -8972,7 +8972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -9052,8 +9052,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -9212,8 +9212,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -9372,8 +9372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -9532,8 +9532,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -9612,8 +9612,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -9692,8 +9692,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -9772,8 +9772,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -10012,7 +10012,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -10092,8 +10092,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -10172,8 +10172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -10332,7 +10332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -10412,7 +10412,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -10572,8 +10572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -10652,7 +10652,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -10732,7 +10732,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -10892,8 +10892,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -10972,8 +10972,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -11052,8 +11052,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -11132,8 +11132,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -11372,8 +11372,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -11772,8 +11772,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -11852,8 +11852,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -11932,8 +11932,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12012,8 +12012,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12172,8 +12172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12252,8 +12252,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12332,8 +12332,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12492,8 +12492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12572,8 +12572,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12652,8 +12652,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12841,8 +12841,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -12921,8 +12921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -13001,8 +13001,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -13040,7 +13040,7 @@ Transform:
   m_GameObject: {fileID: 3770665823636879524}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -149.1, y: 0, z: 162.3}
+  m_LocalPosition: {x: -149.1, y: 0, z: 157.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -13081,7 +13081,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -13241,8 +13241,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -13401,8 +13401,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -13481,8 +13481,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -13561,8 +13561,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -13641,7 +13641,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -13721,7 +13721,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -14121,8 +14121,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -14201,8 +14201,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -14281,8 +14281,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -14361,7 +14361,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -14441,8 +14441,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -14521,7 +14521,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -14601,7 +14601,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -14681,8 +14681,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -15001,7 +15001,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -15161,8 +15161,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -15241,8 +15241,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -15321,7 +15321,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -15512,8 +15512,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -15672,8 +15672,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -15752,8 +15752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -15832,7 +15832,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -15992,7 +15992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -16072,8 +16072,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -16152,8 +16152,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -16232,8 +16232,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -16312,8 +16312,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 3
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -16582,8 +16582,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -16662,7 +16662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -16742,7 +16742,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -16822,8 +16822,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -16902,7 +16902,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 0
   BlinkerState: 0
   jerk: 5
@@ -17062,8 +17062,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -17173,8 +17173,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -17333,7 +17333,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -17413,7 +17413,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -17493,8 +17493,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -17573,8 +17573,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -17653,8 +17653,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -17860,8 +17860,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -18180,8 +18180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -18261,8 +18261,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 0
-  acceleration: 0
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -18362,7 +18362,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -18442,8 +18442,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -18522,8 +18522,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -18682,7 +18682,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -19002,8 +19002,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -19431,7 +19431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -19591,8 +19591,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -19671,8 +19671,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -19831,7 +19831,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -19966,7 +19966,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -20046,8 +20046,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -20126,8 +20126,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -20286,8 +20286,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -20366,7 +20366,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -20526,8 +20526,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -20741,7 +20741,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -20834,8 +20834,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -20994,7 +20994,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -21074,8 +21074,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -21154,7 +21154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -21234,8 +21234,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -21394,8 +21394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -21474,7 +21474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -21554,8 +21554,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -21794,8 +21794,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -21874,8 +21874,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -21954,7 +21954,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -22034,8 +22034,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -22194,8 +22194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -22274,7 +22274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -22354,8 +22354,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -22434,8 +22434,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -22594,7 +22594,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -22674,7 +22674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -22754,8 +22754,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -22889,8 +22889,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -23049,7 +23049,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -23289,8 +23289,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -23449,8 +23449,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -23568,7 +23568,7 @@ Transform:
   m_GameObject: {fileID: 6456538307174022487}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -269.3, y: 0, z: 157.3}
+  m_LocalPosition: {x: -269.3, y: 0, z: 153.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -23609,8 +23609,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 3
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -23689,8 +23689,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -23929,8 +23929,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -24009,8 +24009,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -24089,8 +24089,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -24224,7 +24224,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -24304,8 +24304,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -24602,7 +24602,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -24701,8 +24701,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -24836,8 +24836,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -24916,8 +24916,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -24996,7 +24996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -25076,7 +25076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -25316,7 +25316,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -25396,8 +25396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -25476,8 +25476,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -25590,8 +25590,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -25779,8 +25779,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -26019,8 +26019,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -26099,8 +26099,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -26179,7 +26179,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -26419,8 +26419,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -26499,7 +26499,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -26579,7 +26579,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -26770,8 +26770,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -27090,7 +27090,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -27279,8 +27279,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -27359,8 +27359,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -27439,8 +27439,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -27519,8 +27519,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -27599,8 +27599,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -27679,8 +27679,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -27792,8 +27792,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -28063,8 +28063,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -28143,8 +28143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -28223,8 +28223,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -28383,7 +28383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -28543,7 +28543,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -28623,7 +28623,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -28703,8 +28703,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -28943,8 +28943,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -29023,8 +29023,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -29103,8 +29103,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -29183,8 +29183,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -29263,7 +29263,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -29532,8 +29532,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -29776,8 +29776,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -29856,8 +29856,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -29936,8 +29936,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -30016,8 +30016,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -30055,7 +30055,7 @@ Transform:
   m_GameObject: {fileID: 8548022470631275129}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.043619405, z: 0, w: 0.9990483}
-  m_LocalPosition: {x: -149.4, y: 0, z: 215.5}
+  m_LocalPosition: {x: -150, y: 0, z: 208.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -30096,7 +30096,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 0
@@ -30336,8 +30336,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -30525,8 +30525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -30685,8 +30685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -30765,7 +30765,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -30845,8 +30845,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -31005,8 +31005,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -31165,8 +31165,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -31485,8 +31485,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -31565,7 +31565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 30
   acceleration: 2
   BlinkerState: 0
   jerk: 5
@@ -31914,8 +31914,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 0
-  speed: 60
-  acceleration: 2
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -32154,8 +32154,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -32234,8 +32234,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -32314,8 +32314,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -32394,8 +32394,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -32474,7 +32474,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -32554,7 +32554,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
+  speed: 25
   acceleration: -5
   BlinkerState: 0
   jerk: 5
@@ -32634,8 +32634,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 25
+  acceleration: -5
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
@@ -32714,8 +32714,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetAICar: {fileID: 0}
   Type: 1
-  speed: 60
-  acceleration: 1
+  speed: 30
+  acceleration: 2
   BlinkerState: 0
   jerk: 0
   causeToYield: 0
