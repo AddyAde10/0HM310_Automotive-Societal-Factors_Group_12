@@ -49,7 +49,7 @@ public class KeyboardPlayerMovement : MonoBehaviour
         }
         else if (Input.GetKey(KeyCode.Y))
         {
-            Debug.Log("Hello: " + elapsedTime);
+            Debug.Log("UNSAFE: " + elapsedTime);
         }
         _rb.MovePosition(_rb.position + _rb.rotation * move * Time.fixedDeltaTime);
         _rb.MoveRotation(_rb.rotation * Quaternion.Euler(0, rot * Time.fixedDeltaTime, 0));
