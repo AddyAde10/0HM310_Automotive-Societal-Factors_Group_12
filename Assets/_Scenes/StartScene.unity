@@ -296,8 +296,6 @@ MonoBehaviour:
     - {fileID: 7713759469045616529, guid: 1baf460ab026f1247ab4696be569ffae, type: 3}
   Experiments:
   - {fileID: 8692043556341430772, guid: 0defa5bf812e2e14bba34c9fd4c3c9d7, type: 3}
-  - {fileID: 8692043556341430772, guid: 840827e173bb36f48bbc0df5121cddbd, type: 3}
-  - {fileID: 8692043556341430772, guid: c5af73a307f19ac4b92fb4251cc579e0, type: 3}
   hideGui: 0
   RunTrialSequenceAutomatically: 0
   recordVideos: 0

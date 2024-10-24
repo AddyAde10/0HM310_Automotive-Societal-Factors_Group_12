@@ -2306,7 +2306,7 @@ MonoBehaviour:
   targetAICar: {fileID: 0}
   Type: 1
   speed: 0
-  acceleration: 0
+  acceleration: -5
   BlinkerState: 0
   jerk: 5
   causeToYield: 0
@@ -11384,6 +11384,86 @@ MonoBehaviour:
   YieldingEyeContactSince: 0
   YieldingEyeContactUntil: 0
   customBehaviourData: []
+--- !u!1 &3249224278369678126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5240869711336111227}
+  - component: {fileID: 2544216884721835330}
+  - component: {fileID: 5743544718511947732}
+  m_Layer: 5
+  m_Name: WP36
+  m_TagString: WP
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5240869711336111227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249224278369678126}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0011230779, y: 0.99999356, z: 0.0008039658, w: -0.0033131226}
+  m_LocalPosition: {x: 311, y: 1, z: -309}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3847755867822048639}
+  m_LocalEulerAnglesHint: {x: -0.093, y: 180.38, z: 0.128}
+--- !u!65 &2544216884721835330
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249224278369678126}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 0
+  serializedVersion: 3
+  m_Size: {x: 4.25, y: 4, z: 0}
+  m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &5743544718511947732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3249224278369678126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aafac7d9fa55df845bcba1182540f596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetAICar: {fileID: 0}
+  Type: 1
+  speed: 0
+  acceleration: -5
+  BlinkerState: 0
+  jerk: 5
+  causeToYield: 0
+  EyeContactWhileYielding: 0
+  EyeContactAfterYielding: 0
+  yieldTime: 0
+  brakingAcceleration: 0
+  YieldingEyeContactSince: 0
+  YieldingEyeContactUntil: 0
+  customBehaviourData: []
 --- !u!1 &3260249330908911698
 GameObject:
   m_ObjectHideFlags: 0
@@ -17734,6 +17814,7 @@ Transform:
   - {fileID: 3857825699214370118}
   - {fileID: 4610791861294543221}
   - {fileID: 5554813050501522183}
+  - {fileID: 5240869711336111227}
   m_Father: {fileID: 7609667120526454229}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2712118890141727409
@@ -17790,6 +17871,7 @@ MonoBehaviour:
     - {fileID: 3857825699214370118}
     - {fileID: 4610791861294543221}
     - {fileID: 5554813050501522183}
+    - {fileID: 5240869711336111227}
   smoothRoute: 0
   editorVisualisationSubsteps: 500
 --- !u!1 &4988144777381450308
@@ -24407,7 +24489,7 @@ GameObject:
   - component: {fileID: 7609667120526454229}
   - component: {fileID: 8692043556341430772}
   m_Layer: 0
-  m_Name: Base
+  m_Name: Case_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
